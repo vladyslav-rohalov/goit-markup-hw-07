@@ -1,5 +1,5 @@
-# goit-markup-hw-06
+# goit-markup-hw-07
 
-Home work 06
+Home work 07
 
-https://vladyslav-rohalov.github.io/goit-markup-hw-06/
+https://vladyslav-rohalov.github.io/goit-markup-hw-07/index.html
