@@ -1,0 +1,10 @@
+.header {
+    background-color: $header-background-color;
+    padding-top: 24px;
+    padding-bottom: 25px;
+    border-bottom: 1px solid $border-line-color;
+}
+
+ .header-main {
+     display: flex;
+ }

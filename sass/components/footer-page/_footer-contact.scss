@@ -1,0 +1,25 @@
+.footer-main__contact {
+    font-style: normal;
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    margin-top: 20px;
+}
+
+.footer-main__text {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    color: $text-color-white;
+}
+
+.footer-main__link {
+    color: $footer-rgba-color;
+    text-decoration: none;
+    cursor: default;
+}
+
+.footer-main__item {
+    margin-top: 9px;
+}

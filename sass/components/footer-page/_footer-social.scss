@@ -1,0 +1,10 @@
+.footer-main__social-icon {
+    fill: $text-color-white;
+    background-color: $icon-footer-bg;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+    &:hover,
+    &:focus {
+        background-color: $accent-color;
+    }
+}

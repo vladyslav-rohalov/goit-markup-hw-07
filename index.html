@@ -7,15 +7,7 @@
       content="Домашнє завдання №07 з курсу FronEnd developer у школі GoIT"
     />
     <title>Домашнє завдання №07</title>
-    <link
-      href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
-      rel="stylesheet"
-    />
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css"
-    />
-    <link rel="stylesheet" href="css/styles.css" />
+    <link rel="stylesheet" href="css/main.min.css" />
   </head>
 
   <body>
@@ -27,12 +19,16 @@
           >
           <ul class="site-nav">
             <li class="site-nav__item">
-              <a class="site-nav__line" href="index.html">Студія</a>
+              <a class="site-nav__link site-nav__line" href="index.html"
+                >Студія</a
+              >
             </li>
             <li class="site-nav__item">
-              <a href="portfolio.html">Портфоліо</a>
+              <a class="site-nav__link" href="portfolio.html">Портфоліо</a>
             </li>
-            <li class="site-nav__item"><a href="#">Контакти</a></li>
+            <li class="site-nav__item">
+              <a class="site-nav__link" href="#">Контакти</a>
+            </li>
           </ul>
         </nav>
 
@@ -133,37 +129,40 @@
       <section class="section">
         <div class="container">
           <h2 class="h2-title">Чим ми займаємося</h2>
-          <ul class="product-flex">
-            <li class="item">
-              <div class="wrapper">
+          <ul class="product">
+            <li class="product__item">
+              <div class="product__wrapper">
                 <img
                   src="./images/write-code.jpg"
                   alt="Пишимо якісний код"
                   width="370"
+                  class="product__img"
                 />
-                <p class="label">Десктопні додатки</p>
+                <p class="product__text">Десктопні додатки</p>
               </div>
             </li>
 
-            <li class="item">
-              <div class="wrapper">
+            <li class="product__item">
+              <div class="product__wrapper">
                 <img
                   src="./images/adopting.jpg"
                   alt="Адаптуємо під мобільні пристрої"
                   width="370"
+                  class="product__img"
                 />
-                <p class="label">Мобільні додатки</p>
+                <p class="product__text">Мобільні додатки</p>
               </div>
             </li>
 
-            <li class="item">
-              <div class="wrapper">
+            <li class="product__item">
+              <div class="product__wrapper">
                 <img
                   src="./images/graph-design.jpg"
                   alt="Робимо графічний дизайн"
                   width="370"
+                  class="product__img"
                 />
-                <p class="label">Дизайнерські рішення</p>
+                <p class="product__text">Дизайнерські рішення</p>
               </div>
             </li>
           </ul>
@@ -561,6 +560,7 @@
               name="email"
               placeholder="E-mail"
               id="btn-mail"
+              class="footer-main__input"
             />
             <button type="submit" class="btn footer-main__subscribe-btn">
               Підписатися

@@ -7,15 +7,7 @@
       content="Домашнє завдання №07 з курсу FronEnd developer у школі GoIT"
     />
     <title>Домашнє завдання №07</title>
-    <link
-      href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
-      rel="stylesheet"
-    />
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css"
-    />
-    <link rel="stylesheet" href="css/styles.css" />
+    <link rel="stylesheet" href="css/main.min.css" />
   </head>
 
   <body>
@@ -27,12 +19,16 @@
           >
           <ul class="site-nav">
             <li class="site-nav__item">
-              <a href="index.html">Студія</a>
+              <a class="site-nav__link" href="index.html">Студія</a>
             </li>
             <li class="site-nav__item">
-              <a class="site-nav__line" href="portfolio.html">Портфоліо</a>
+              <a class="site-nav__link site-nav__line" href="portfolio.html"
+                >Портфоліо</a
+              >
             </li>
-            <li class="site-nav__item"><a href="#">Контакти</a></li>
+            <li class="site-nav__item">
+              <a class="site-nav__link" href="#">Контакти</a>
+            </li>
           </ul>
         </nav>
 
@@ -355,6 +351,7 @@
               name="email"
               placeholder="E-mail"
               id="btn-mail"
+              class="footer-main__input"
             />
             <button type="submit" class="btn footer-main__subscribe-btn">
               Підписатися
